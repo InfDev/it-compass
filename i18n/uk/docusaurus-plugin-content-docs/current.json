@@ -1,0 +1,38 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Тренди та робота": {
+    "message": "Тренди та робота",
+    "description": "The label for category Тренди та робота in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Навички загальні": {
+    "message": "Навички загальні",
+    "description": "The label for category Навички загальні in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Стандарти": {
+    "message": "Стандарти",
+    "description": "The label for category Стандарти in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Документування": {
+    "message": "Документування",
+    "description": "The label for category Документування in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Системи": {
+    "message": "Системи",
+    "description": "The label for category Системи in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Інструменти": {
+    "message": "Інструменти",
+    "description": "The label for category Інструменти in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Мови кодування": {
+    "message": "Мови кодування",
+    "description": "The label for category Мови кодування in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Веб-розробка": {
+    "message": "Веб-розробка",
+    "description": "The label for category Веб-розробка in sidebar tutorialSidebar"
+  }
+}
