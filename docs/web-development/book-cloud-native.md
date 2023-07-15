@@ -8,4 +8,4 @@
 
 Редакция от 25 февраля 2021.
 
-[Перейти до книги](/_books/CloudNative/index.html)
+[Перейти до книги](/_books/CloudNative/)
