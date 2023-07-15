@@ -97,6 +97,7 @@ const sidebars = {
         { type: 'doc', id: 'web-development/asp.net-core' },
         { type: 'doc', id: 'web-development/js-frameworks' },
         { type: 'doc', id: 'web-development/e-commerce' },
+        { type: 'doc', id: 'web-development/book-cloud-native' },
       ]
     },
     {
