@@ -27,3 +27,8 @@ date: 2030-01-01
   - [nopCommerce](https://www.nopcommerce.com/ru)
   - [OrchardCore](https://orchardcore.net/)
   - [DNN](https://www.dnnsoftware.com/) (DotNetNuke)
+  
+**Публічні**:
+- [репозиторії](https://github.com/InfDev/)
+- [nuget-пакети](https://www.nuget.org/packages?q=infdev)
+- сайты: [Імідж Лоджік Україна](https://image-ua.com/uk/), [Мириада](https://miriada.com.ua/), [Класифікатори](https://classifiers-ui.infdev.com.ua/)
