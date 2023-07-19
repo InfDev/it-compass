@@ -53,6 +53,21 @@
 - [Docker Hub — hub.docker.com](https://hub.docker.com/) - это самый простой в мире способ создания, управления и доставки контейнерных приложений, крупнейшая в мире
 библиотека и сообщество образов контейнеров.
 
+### Тунелі localhost ⇄ Internet
+
+Тунелі використовуються:
+- для налагодження та тестування на локальному хості веб-застосунку, яка взаємодіє із зовнішнім Інтернет-сервісом. При цьому додаток зобов'язаний надати зовнішньому сервісу кінцеву точку з доступом https-протоколу.
+- потрібно показати роботу веб-застосунку іншим до розгортання його у виробничому середовищі.
+
+![ngrok](./assets/ngrok.png)
+
+- [ngrok — ngrok.com](https://ngrok.com/)
+- [localtunnel — theboroer.github.io](https://theboroer.github.io/localtunnel-www/)
+- [localhost.run](https://localhost.run/)
+- [ngrok — Когда нужно прокинуть ваш сервис в Интернет — mkdev.me](https://mkdev.me/ru/posts/ngrok-kogda-nuzhno-prokinut-vash-servis-v-internet)
+- [Как без белого IP локальный веб-сервер сделать доступным из Интернета — ](https://hackware.ru/?p=11769)
+- [Using SSH and localhost.run to test GitHub webhooks locally — andrewlock.net](https://andrewlock.net/using-ssh-and-localhost-run-to-test-github-webhooks-locally/)
+
 ### Базы данных
 
 - [Azure Data Studio — learn.microsoft.com](https://learn.microsoft.com/ru-ru/sql/azure-data-studio/download-azure-data-studio?) - кросс-платформенное решение для специалистов по работе с данными, использующих локальные и облачные платформы данных в Windows, macOS и Linux.
