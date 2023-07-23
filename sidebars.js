@@ -27,6 +27,7 @@ const sidebars = {
         { type: 'doc', id: 'skills/about-web' },
         { type: 'doc', id: 'skills/information-search'},
         { type: 'doc', id: 'skills/time-management' },
+        { type: 'doc', id: 'skills/email-etiquette-rules' }
       ]
     },
     {
