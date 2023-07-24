@@ -24,10 +24,10 @@ const sidebars = {
         { type: 'doc', id: 'skills/languages-of-communication' },
         { type: 'doc', id: 'skills/work-with-documents-on-pc'},
         { type: 'doc', id: 'skills/business-correspondence' },
+        { type: 'doc', id: 'skills/email-etiquette' },
         { type: 'doc', id: 'skills/about-web' },
         { type: 'doc', id: 'skills/information-search'},
         { type: 'doc', id: 'skills/time-management' },
-        { type: 'doc', id: 'skills/email-etiquette-rules' }
       ]
     },
     {
