@@ -95,6 +95,7 @@ const sidebars = {
       type: 'category', label: 'Веб-розробка',
       items: [
         { type: 'doc', id: 'web-development/intro' },
+        { type: 'doc', id: 'web-development/technology-stacks' },
         { type: 'doc', id: 'web-development/asp.net-core' },
         { type: 'doc', id: 'web-development/js-frameworks' },
         { type: 'doc', id: 'web-development/e-commerce' },

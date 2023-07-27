@@ -16,10 +16,14 @@ SET YYYYMMDD_HHMMSS=%date:~6,4%%date:~3,2%%date:~0,2%_%time:~0,2%%time:~3,2%%tim
 IF " " == "%YYYYMMDD_HHMMSS:~9,1%" SET YYYYMMDD_HHMMSS=%YYYYMMDD_HHMMSS: =0%
 IF " " == "%YYYYMMDD_HHMMSS:~6,1%" SET YYYYMMDD_HHMMSS=%YYYYMMDD_HHMMSS: =0%
 
+SET COMMIT_MSG="Step %YYYYMMDD_HHMMSS%"
+SET CUSTOM_COMMIT_MSG=%1
+IF [%CUSTOM_COMMIT_MSG%] NEQ [] SET COMMIT_MSG=%CUSTOM_COMMIT_MSG%
+
 echo "Добавление в индекс текущих файлов ..."
 git add --all
 echo "Зафиксировать изменения ..."
-git commit -m "Step %YYYYMMDD_HHMMSS%"
+git commit -m %COMMIT_MSG%
 
 SET FILENAME=%PREFIX%!%REPOSITORY_NAME%!%YYYYMMDD_HHMMSS%.zip
 SET ARCH_LOCAL_PATH=%ARCH_LOCAL_FOLDER%%FILENAME%
