@@ -32,6 +32,7 @@ HTML задає структуру ресурсу, а таблиці стилі�
   - [Одиниці вимірювання довжини: px, em, cm тощо](https://www.w3.org/Style/Examples/007/units.uk.html)
   - [Зображення & описи](https://www.w3.org/Style/Examples/007/figures)
   - [Відкидання тіней](https://www.w3.org/Style/Examples/007/shadows)
+- [Мифы о Bootstrap — youtube.com](https://www.youtube.com/watch?v=OsC2h96biXk)
 
 ## Спец. символи
 

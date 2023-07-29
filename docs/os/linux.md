@@ -7,6 +7,7 @@ Linux - сімейство Unix-подібних операційних сист
 - [Уроки по Linux — acode.com.ua](https://acode.com.ua/linux-lessons/)
 - [Путівник по Linux — linuxguide.rozh2sch.org.ua](https://linuxguide.rozh2sch.org.ua/)
 - [Онлайн-курс з лінукс — geek-university.com](https://geek-university.com/linux-online-course/) - це освітній веб-сайт, що пропонує багато безкоштовних комп'ютерних онлайн-курсів.
+- [Полезные консольные Linux утилиты — habr.com](https://habr.com/ru/articles/553000/)
 
 ## Ядро Linux
 
