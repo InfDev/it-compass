@@ -112,6 +112,14 @@ const sidebars = {
       ]
     },
     {
+      type: 'category', label: 'Платформа nopCommerce',
+      items: [
+        { type: 'doc', id: 'nopCommerce/index', },
+        //{ type: 'doc', id: 'nopCommerce/', },
+        //{ type: 'doc', id: 'nopCommerce/' }
+      ]
+    },
+    {
       type: 'category', label: 'Плюшки',
       items: [
         { type: 'doc', id: 'buns/cron-expressions', },
