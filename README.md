@@ -1,18 +1,41 @@
-# IT compass
+# Website
 
-Ukrainian-language site project [IT compass](https://infdev.com.ua). \
-Проект україномовного сайту [ІТ-компас](https://infdev.com.ua).
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-Корисні матеріали та посилання на ресурси, які використовуються автором у процесі розробки, впровадження та супроводу продуктів. Наголос робиться на матеріалах, пов'язаних з платформою .NET.
+### Installation
 
-Матеріали включають короткі довідкові дані на теми:
+```
+$ yarn
+```
 
-- Навички загальні
-- Документування
-- Стандарти
-- Проектування
-- Мови кодування
-- Веб-розробка
-- Системи
-- Інструменти
-- Інші
+### Local Development
+
+```
+$ yarn start
+```
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+### Build
+
+```
+$ yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+Using SSH:
+
+```
+$ USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
