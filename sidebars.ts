@@ -124,6 +124,14 @@ const sidebars: SidebarsConfig = {
       ]
     },
     {
+      type: 'category', label: 'Терміни',
+      items: [
+        { type: 'doc', id: 'terms/expert-vs-analyst', },
+        //{ type: 'doc', id: 'terms/', },
+        //{ type: 'doc', id: 'terms/' }
+      ]
+    },
+    {
       type: 'category', label: 'Плюшки',
       items: [
         { type: 'doc', id: 'buns/cron-expressions', },
