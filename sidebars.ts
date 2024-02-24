@@ -139,6 +139,14 @@ const sidebars: SidebarsConfig = {
         //{ type: 'doc', id: 'buns/' }
       ]
     },
+    {
+      type: 'category', label: 'Здоров\'я',
+      items: [
+        { type: 'doc', id: 'health/ah', },
+        //{ type: 'doc', id: 'health/', },
+        //{ type: 'doc', id: 'health/' }
+      ]
+    },
   ],
 };
 
