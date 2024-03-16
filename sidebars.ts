@@ -142,6 +142,8 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category', label: 'Здоров\'я',
       items: [
+        //{ type: 'doc', id: 'health/healthy-way-of-life', },
+        { type: 'doc', id: 'health/food-compass'},
         { type: 'doc', id: 'health/ah', },
         //{ type: 'doc', id: 'health/', },
         //{ type: 'doc', id: 'health/' }

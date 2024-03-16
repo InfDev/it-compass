@@ -126,6 +126,8 @@
 - [Hypertension | www.who.int](https://www.who.int/news-room/fact-sheets/detail/hypertension) - Всесвітня організація охорони здоров’я (ВООЗ)
 - [Рекомендації ESH-2023 щодо ведення пацієнтів з артеріальною гіпертензією | health-ua.com](https://health-ua.com/article/74274-rekomendatc-ESH2023-shodo-vedennya-patcntv-zarteralnoyu-gpertenzyu) \
   ESH - European Society of Hypertension, Європейське товариство гіпертензії.
-
-
-
+- [Пульсовое давление | youtube.com](https://www.youtube.com/watch?v=DwIsQumQWCs) \
+  Кардиолог Чайковская \
+  Норма ПД, Повышенное ПД, Пониженное ПД.  Что это такое? Какое имеет значение? Как вычислять ? \
+  7 причин высокого пульсового давления \
+  3 причины низкого пульсового давления
