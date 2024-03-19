@@ -1,0 +1,18 @@
+# FCS-рейтинг продуктів 
+
+Рекомендації [Food Compass](./food-compass) для продуктів і напоїв
+| Рейтинг     |  Рекомендації                      |
+|-------------|------------------------------------|
+| 70 і більше | слід заохочувати                   |
+| 31 .. 69    | слід вживати в помірних кількостях |
+| 30 і менше  | слід споживати мінімально          |
+
+*Вибірка з [Food Compass Score](https://static-content.springer.com/esm/art%3A10.1038%2Fs43016-021-00381-y/MediaObjects/43016_2021_381_MOESM1_ESM.pdf)*. *Для сортування клацніть по заголовку стовпця*.
+
+import { PesterDataTable, PesterDataButton } from "@site/src/components/PesterDataTable";
+import { columns, scopes } from "./food-compass-ratings.table";
+
+<PesterDataTable
+  columns={columns}
+  data={ scopes }
+/>
