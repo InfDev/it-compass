@@ -112,7 +112,8 @@ const sidebars: SidebarsConfig = {
       items: [
         { type: 'doc', id: 'trends/software-development-trends', },
         { type: 'doc', id: 'trends/programming-language-trends', },
-        { type: 'doc', id: 'trends/how-to-find-work' }
+        { type: 'doc', id: 'trends/careers-in-it' },        
+        { type: 'doc', id: 'trends/how-to-find-work' },
       ]
     },
     {

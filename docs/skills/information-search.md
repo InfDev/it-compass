@@ -2,9 +2,11 @@
 
 ## Загальні відомості
 
-Пошук інформації в інтернеті здійснюється за допомогою пошукових систем. Топові пошукові системи займають понад 90% ринку станом на 2023 рік:
-- Google (~ 85%)
-- Bing
+Пошук інформації в інтернеті здійснюється за допомогою пошукових систем. Топові десктопні пошукові системи станом на початок 2024 року:
+- Google (82,0%)
+- Bing (10,5%)
+- Yahoo! (2,7%)
+- Yandex (2,4%)
 
 Зазвичай для пошуку можна використовувати адресний рядок відповідного браузера, куди вводиться слово або фраза та натискається клавіша `Enter`.
 
@@ -14,4 +16,5 @@
 - [Розширений пошук — google.com/advanced_search](https://www.google.com/advanced_search)
 - [Розширення для Google Chrome. Головна сторінка та засіб пошуку Microsoft Bing](https://chrome.google.com/webstore/detail/microsoft-bing-homepage-s/ddojnmkongaimkdddgmcccldlfhokcfb)
 - [30+ операторов поиска Google: самый подробный список — seranking.com](https://seranking.com/ru/blog/operatory-poiska-google/)
+- [Частка ринку провідних десктопних пошукових систем](https://www.statista.com/statistics/216573/worldwide-market-share-of-search-engines/)
 
