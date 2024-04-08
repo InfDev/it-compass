@@ -143,6 +143,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category', label: 'Здоров\'я',
       items: [
+        { type: 'doc', id: 'health/evidence-based-medicine' },       
         //{ type: 'doc', id: 'health/healthy-way-of-life', },
         { type: 'doc', id: 'health/food-compass'},
         { type: 'doc', id: 'health/food-compass-ratings' },
