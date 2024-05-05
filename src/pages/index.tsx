@@ -23,6 +23,14 @@ function HomepageHeader() {
             Як ми можемо протистояти агресії Росії
           </Link>
         </div>
+        <br />
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/_media/index.html" target='_blank'>
+            Зважена інформація та думки цікавих людей
+          </Link>
+        </div>
       </div>
     </header>
   );
