@@ -147,6 +147,7 @@ const sidebars: SidebarsConfig = {
         //{ type: 'doc', id: 'health/healthy-way-of-life', },
         { type: 'doc', id: 'health/food-compass'},
         { type: 'doc', id: 'health/food-compass-ratings' },
+        { type: 'doc', id: 'health/reasons-for-rapid-fatigue' },
         { type: 'doc', id: 'health/ah' },
         { type: 'doc', id: 'health/pancreatitis' },
         //{ type: 'doc', id: 'health/' }
