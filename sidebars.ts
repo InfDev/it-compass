@@ -150,6 +150,7 @@ const sidebars: SidebarsConfig = {
         { type: 'doc', id: 'health/fatigue' },
         { type: 'doc', id: 'health/ah' },
         { type: 'doc', id: 'health/pancreatitis' },
+        { type: 'doc', id: 'health/back-joint pathologies' }
         //{ type: 'doc', id: 'health/' }
       ]
     },
