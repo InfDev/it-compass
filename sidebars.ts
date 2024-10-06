@@ -16,6 +16,7 @@ const sidebars: SidebarsConfig = {
 
   // But you can create a sidebar manually
   tutorialSidebar: [
+    { type: 'doc', id: 'index' },
     {
       type: 'category', label: 'Е-послуги',
       items: [
@@ -151,6 +152,7 @@ const sidebars: SidebarsConfig = {
         { type: 'doc', id: 'health/fatigue' },
         { type: 'doc', id: 'health/ah' },
         { type: 'doc', id: 'health/pancreatitis' },
+        { type: 'doc', id: 'health/pancreatitis-in-children' },
         { type: 'doc', id: 'health/back-joint pathologies' }
         //{ type: 'doc', id: 'health/' }
       ]
