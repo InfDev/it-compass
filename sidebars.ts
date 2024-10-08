@@ -149,6 +149,7 @@ const sidebars: SidebarsConfig = {
         //{ type: 'doc', id: 'health/healthy-way-of-life', },
         { type: 'doc', id: 'health/food-compass'},
         { type: 'doc', id: 'health/food-compass-ratings' },
+        { type: 'doc', id: 'health/human-organs' }, 
         { type: 'doc', id: 'health/fatigue' },
         { type: 'doc', id: 'health/ah' },
         { type: 'doc', id: 'health/pancreatitis' },
