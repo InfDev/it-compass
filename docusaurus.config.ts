@@ -18,7 +18,7 @@ const config: Config = {
   organizationName: 'InfDev', // Usually your GitHub org/user name.
   projectName: 'it-compass', // Usually your repo name.
 
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -32,7 +32,7 @@ const config: Config = {
       ru: { htmlLang: 'ru-RU' },
       en: { htmlLang: 'en-US' },
     }
-  },
+ },
 
   presets: [
     [
@@ -46,17 +46,25 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           blogTitle: 'Блог Олександра Шляхто',
           blogSidebarTitle: 'Останні пости',
+          feedOptions: {
+            type: ['rss', 'atom'],
+            xslt: true,
+          },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          //editUrl:
+          // editUrl:
           //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // Useful options to enforce blogging best practices
+          onInlineTags: 'warn',
+          onInlineAuthors: 'warn',
+          onUntruncatedBlogPosts: 'warn',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -91,7 +99,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-/*      
+/*
       links: [
         {
           title: 'Docs',
@@ -141,22 +149,7 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
       additionalLanguages: ['powershell', 'csharp'],
     },
-  },
-/*
-  themes: [
-    [
-      // @ts-ignore
-      "@easyops-cn/docusaurus-search-local",
-      // @ts-ignore
-      ({
-        hashed: true,
-        language: ["en", "ru", "uk"],
-        highlightSearchTermsOnTargetPage: true,
-        // explicitSearchResultPath: true,
-      }),
-    ],
-  ],
-*/
+  } satisfies Preset.ThemeConfig,
 };
 
 export default config;
