@@ -26,11 +26,11 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'uk',
-    locales: ['uk', 'ru', 'en'],
+    locales: ['uk'],
     localeConfigs: {
       uk: { htmlLang: 'uk-UA' },
-      ru: { htmlLang: 'ru-RU' },
-      en: { htmlLang: 'en-US' },
+      //ru: { htmlLang: 'ru-RU' },
+      //en: { htmlLang: 'en-US' },
     }
  },
 
@@ -64,7 +64,7 @@ const config: Config = {
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+          onUntruncatedBlogPosts: 'ignore',
         },
         theme: {
           customCss: './src/css/custom.css',

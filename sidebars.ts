@@ -144,6 +144,7 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
     {
       type: 'category', label: 'Здоров\'я',
       items: [
+        { type: 'doc', id: 'health/balanced-diet' },
         { type: 'doc', id: 'health/calculators' },
         { type: 'doc', id: 'health/evidence-based-medicine' },       
         //{ type: 'doc', id: 'health/healthy-way-of-life', },
