@@ -255,3 +255,5 @@
 - [Занадто солодко: 8 продуктів, які містять велику кількість прихованого цукру](https://focus.ua/uk/lifestyle/610083-zanadto-solodko-8-produktiv-yaki-mistyat-veliku-kilkist-prihovanogo-cukru)
 - [Продукти з високим вмістом натрію](https://feelgoodpal.com/uk/blog/high-sodium-foods/)
 - [Полезные и вредные способы приготовления еды](https://hitmeal.ru/blog/poleznye-i-vrednye-sposoby-prigotovleniya-edy/)
+- [Алексей Водовозов, врач-терапевт: «Едим хлеб ржаной и пшеничный — организму нужно разнообразие!» | youtube.com](https://www.youtube.com/watch?v=V3srwiA4jIE)
+- [Альбина Комиссарова: худеть без диет возможно? Чем опасно интуитивное питание? | youtube.com](https://www.youtube.com/watch?v=l2YLiG7VMSs)
