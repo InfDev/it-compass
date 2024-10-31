@@ -1,0 +1,68 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+
+	RewriteCond %{HTTP_HOST} ^www\.
+	RewriteRule ^(.*)$ https://infdev.com.ua/$1 [R=301,L]
+
+	Redirect 301 /trends-soft-development /docs/trends/software-development-trends
+	Redirect 301 /trends-programming-languages /docs/trends/programming-language-trends
+	Redirect 301 /how-to-find-work /docs/trends/how-to-find-work
+
+	Redirect 301 /skills/ukrainian-language /docs/skills/languages-of-communication
+	Redirect 301 /skills/english-language /docs/skills/languages-of-communication
+	Redirect 301 /skills/business-correspondence /docs/skills/business-correspondence
+
+	Redirect 301 /skills/for-pc-users/about-pc /docs/skills/knowledge-skills-abilities
+	Redirect 301 /skills/for-pc-users/pc-software /docs/skills/knowledge-skills-abilities
+	Redirect 301 /skills/for-pc-users/common-apps /docs/tools/common-apps
+	Redirect 301 /skills/for-pc-users/online-services /docs/tools/user-tools
+	Redirect 301 /skills/for-pc-users /docs/skills/work-with-documents-on-pc
+
+	Redirect 301 /skills/peace-and-personality/chasing-progress /docs/skills/knowledge-skills-abilities
+	Redirect 301 /skills/peace-and-personality/professionalism /docs/skills/knowledge-skills-abilities
+	Redirect 301 /skills/peace-and-personality/hierarchy-of-needs /docs/skills/knowledge-skills-abilities
+	Redirect 301 /skills/peace-and-personality/procrastination /docs/skills/knowledge-skills-abilities
+
+#	Redirect 301 /skills /docs/skills/knowledge-skills-abilities
+
+	Redirect 301 /documenting/gendoc-mkdocs /docs/documentation
+	Redirect 301 /documenting/gendoc-docfx /docs/documentation
+	Redirect 301 /documenting/gendoc-sphinx /docs/documentation
+	Redirect 301 /documenting/markdown /docs/documentation/markdown
+	Redirect 301 /documenting/markdown-commonmark /docs/documentation/markdown
+	Redirect 301 /documenting/markdown-github /docs/documentation/markdown
+	Redirect 301 /documenting/markdown-here /docs/documentation/markdown
+	Redirect 301 /documenting/html-special-characters /docs/documentation/html-special-characters
+	Redirect 301 /documenting /docs/documentation
+
+	Redirect 301 /standards/what-standards-to-follow /docs/standards/what-standards-to-follow
+	Redirect 301 /standards/maintenance-standards /docs/standards/maintenance-standards 
+	Redirect 301 /standards/naming-conventions /docs/standards/naming-conventions
+	Redirect 301 /standards/openapi /docs/standards/api-architecture-styles
+	Redirect 301 /standards/license-types /docs/standards/license-types
+	Redirect 301 /standards /docs/standards
+
+	Redirect 301 /system-tools/powershell-core /docs/os/powershell-core
+	Redirect 301 /system-tools/cmd-windows /docs/os/windows
+	Redirect 301 /system-tools/wsl /docs/os/windows
+	Redirect 301 /system-tools/linux /docs/os/linux
+	Redirect 301 /system-tools/git-and-github /docs/tools/developer-tools
+	Redirect 301 /system-tools/docker /docs/os/docker
+	Redirect 301 /system-tools/windows-terminal /docs/os/windows
+
+	Redirect 301 /designing/programming-paradigms /docs/designing/programming-paradigms
+	Redirect 301 /designing/oop /docs/designing/oop
+	Redirect 301 /designing/oop.solid /docs/designing/oop
+	Redirect 301 /designing/functional-programming /docs/designing/functional-programming
+	Redirect 301 /designing/design-patterns /docs/designing/design-patterns
+	Redirect 301 /designing/refactoring /docs/designing/refactoring
+
+	Redirect 301 /web/html /docs/сoding-languages/html5+css3
+	Redirect 301 /web/css /docs/сoding-languages/html5+css3
+	Redirect 301 /web/javascript /docs/сoding-languages/js-ts
+	Redirect 301 /web/dev-tools /docs/tools/developer-tools
+	Redirect 301 /web /docs/skills/about-web
+
+	Redirect 301 /general/cron-expressions /docs/buns/cron-expressions
+</IfModule>
+
