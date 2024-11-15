@@ -32,6 +32,7 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
         { type: 'doc', id: 'skills/email-etiquette' },
         { type: 'doc', id: 'skills/about-web' },
         { type: 'doc', id: 'skills/information-search'},
+        { type: 'doc', id: 'skills/spreadsheets'},        
         { type: 'doc', id: 'skills/time-management' },
       ]
     },
