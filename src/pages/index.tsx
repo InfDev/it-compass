@@ -31,6 +31,15 @@ function HomepageHeader() {
             Зважена інформація та думки цікавих людей
           </Link>
         </div>
+
+        <br />
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/health/balanced-diet.html" target='_blank'>
+            Будь здоровий
+          </Link>
+        </div>
       </div>
     </header>
   );
